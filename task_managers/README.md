@@ -1,16 +1,40 @@
-# React + Vite
+# ShareSphere – Smart Community Resource Sharing Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+ShareSphere is a simple React application developed using Vite.  
+The application allows users to add, view, and delete community resources dynamically.
 
-Currently, two official plugins are available:
+This project is created as part of the assignment for:
+**Next-Gen Full Stack Web Development with MERN Stack**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
+- Add community resources
+- Delete resources
+- Dynamic rendering using React
+- Form validation
+- Responsive and simple UI
+- React Hooks (`useState`, `useEffect`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- Vite
+- JavaScript
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Project Structure
+
+```plaintext
+src/
+│
+├── App.jsx
+├── App.css
+├── TaskForm.jsx
+├── TaskList.jsx
+├── TaskItem.jsx
+├── main.jsx
